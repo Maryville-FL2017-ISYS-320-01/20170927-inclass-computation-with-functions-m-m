@@ -4,11 +4,20 @@
 	Date: 
 */
 
+
+
 public class P6_Scientific {
 
 	public static void main(String[] args) {
-		// REMINDER: Any print statements should only be in the main method
-
+		
+		int base = 9;
+		double exponent = 2; 
+		double result =  Math.pow (base, exponent);
+		
+	}
+	public static void computeScientificValue(int base, double exponent, double result) { 
+		double result = Math.pow( base, exponent);
+		System.out.println("The result is" + result);
 	}
 
 }
