@@ -10,14 +10,11 @@ public class P6_Scientific {
 
 	public static void main(String[] args) {
 		
-		int base = 9;
-		double exponent = 2; 
-		double result =  Math.pow (base, exponent);
+		computeScientificValue(6.5, 3);
 		
 	}
-	public static void computeScientificValue(int base, double exponent, double result) { 
-		double result = Math.pow( base, exponent);
-		System.out.println("The result is" + result);
+	public static void computeScientificValue(double base, double x) { 
+		System.out.println(Math.pow(10, x) * base);
 	}
 
 }
